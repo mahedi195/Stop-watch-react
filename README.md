@@ -4,7 +4,7 @@
 - hour,minute,seconds, miliseconds format
 
 
-**Deployment link : ** https://stop-watch-react-three.vercel.app/
+**Deployment link :** https://stop-watch-react-three.vercel.app/
 
 **Screenshots**
 
