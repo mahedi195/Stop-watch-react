@@ -1,0 +1,128 @@
+body {
+    /* background: linear-gradient(orange, gray); */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
+    background-color: #121c2b;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.myTime {
+    /* border: 1px solid rgb(122, 121, 121); */
+    /* background: white; */
+    padding: 30px 40px;
+    border-radius: 30px;
+    /* background: linear-gradient(135deg, orange, rgb(146, 141, 141), rgb(12, 133, 180)); */
+    color: white;
+    background: #263049;
+    border: 1px solid #334155;
+    box-shadow: 0px 5px 10px #0c0c0c;
+}
+
+
+.all_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.myTime button {
+    font-size: 25px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 40px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 1s ease, transform 1s ease;
+    outline: 0px;
+    font-weight: bold;
+    font-family: system-ui;
+
+
+
+
+}
+
+.myTime .stopwatch {
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: white;
+    font-family: system-ui;
+
+}
+
+.myTime .hh_mm_ss_miliSecond {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+   /* word-spacing: 21px;*/
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #b5b8cb;
+    word-spacing: 52px;
+    font-family: system-ui;
+    font-weight: 800;
+}
+
+.myTime .time {
+
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    /* word-spacing: 50px; */
+    color: #2196F3;
+}
+
+
+
+.start_btn {
+    background-color: #0284c7;
+}
+
+.start_btn:hover {
+    background-color: hsla(197, 76%, 72%, 0.979);
+    transform: translateY(-2px);
+}
+
+
+
+
+
+
+.stop_btn {
+    background-color: #c01414;
+}
+
+
+.stop_btn:hover {
+    background-color: hsl(0, 92%, 77%);
+    transform: translateY(-2px);
+}
+
+
+
+
+
+.reset_btn {
+    background-color: #159243;
+}
+
+
+.reset_btn:hover {
+    background-color: #74e79e;
+    transform: translateY(-2px);
+}
